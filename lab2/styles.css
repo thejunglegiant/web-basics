@@ -1,0 +1,133 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: auto;
+}
+
+td, th {
+    border: 1px solid #595959;
+    padding: 3px;
+    width: 30px;
+    height: 35px;
+}
+
+.top-rows {
+    background-color: #108f8f ;
+}
+
+.top-rows:hover {
+    background-color: #f5f510;
+}
+
+.bottom-rows {
+    background-color: #f5f510;
+}
+
+.bottom-rows:hover {
+    background-color: #098f8f ;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+#main_circle {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: gray;
+    border-radius: 50%
+}
+
+#center_circle {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 125px;
+    top: 125px;
+    background: white;
+    border-radius: 90%
+}
+
+#circle1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -50px;
+    top: 150px;
+    background: white;
+    border-radius: 90%
+}
+
+#circle2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: white;
+    border-radius: 90%
+}
+
+#circle3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 150px;
+    top: -50px;
+    background: white;
+    border-radius: 90%
+}
+
+#circle4 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    background: white;
+    border-radius: 90%
+}
+
+#circle5 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    background: white;
+    border-radius: 90%
+}
+
+#circle6 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    background: white;
+    border-radius: 90%
+}
+
+#circle7 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 150px;
+    top: 350px;
+    background: white;
+    border-radius: 90%
+}
+
+#circle8 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    background: white;
+    border-radius: 90%
+}
