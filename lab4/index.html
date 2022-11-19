@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Lab 4">
+    <meta name="keywords" content="Lab, Morozov">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Морозов О.Д. ІС-92</title>
+  </head>
+  <body>
+    <h2 id="first" onclick="changeColor()">Морозов Олексій Дмитрович</h2>
+    <p class="select" onclick="changeColorQuery()">Місце народження: 18.07.2002, м. Київ</p>
+    <p>Освіта: КПІ</p>
+    <p>Хоббі</p>
+    <ul>
+        <li>Мотоцикл</li>
+        <li>Баскетбол</li>
+        <li>Велосипед</li>
+    </ul>
+    <p>Улюблені твори:</p>
+    <ol>
+        <li>Книга - "Шантарам"</li>
+        <li>Фільм - "Ми Міллери"</li>
+        <li>Серіал - "Друзі"</li>
+    </ol>
+    <p>Останнє місто за кордоном, у якому я встиг побувати до початку повномаштабного вторгнення, був Берлін, тож саме про нього і напишу. Берлін - дуже міжнаціональне місто, тож тут усі чудово розуміють англійську, є багато барів, клубів, різноманітних заходів і просто місць посидіти компанією. Коротше, дуже раджу</p>
+    <div id="image-container">
+      <a href="https://theplanetd.com/places-to-visit-in-berlin/">
+        <img id="image" src="berlin-city.jpeg" />
+      </a>
+    </div>
+    <p>
+      <input type="button" onclick="enlargeImage()" value="Збільшити" />
+      <input type="button" onclick="reduceImage()" value="Зменшити" />
+      <input type="button" onclick="addImage()" value="Додати" />
+      <input type="button" onclick="deleteImage()" value="Видалити" />
+    </p>
+  </body>
+</html>
