@@ -1,0 +1,14 @@
+p {
+  color: white;
+}
+.container {
+  background-color: #333A3F;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.personBox {
+  display: flex;
+  flex-flow: column;
+  align-content: stretch;
+}
